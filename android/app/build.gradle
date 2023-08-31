@@ -33,6 +33,7 @@ android {
         minSdkVersion 23
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
+        versionCode flutterVersionCode.toInteger()
     }
 
     lintOptions {

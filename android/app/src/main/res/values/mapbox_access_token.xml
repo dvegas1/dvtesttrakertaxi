@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="ACCESS_TOKEN" translatable="false">pk.eyJ1IjoiZGFyd2ludmVnYXMxIiwiYSI6ImNsa2xsNnplcDA2ZGkzanBqeGFjcnlxOW4ifQ.qH6iAzU8UmoSYG7gTJ8f8A</string>
+    <string name="MAPBOX_DOWNLOADS_TOKEN" translatable="false">pk.eyJ1IjoiZGFyd2ludmVnYXMxIiwiYSI6ImNsa2xsNnplcDA2ZGkzanBqeGFjcnlxOW4ifQ.qH6iAzU8UmoSYG7gTJ8f8A</string>
+</resources>

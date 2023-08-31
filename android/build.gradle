@@ -16,7 +16,7 @@ buildscript {
                     // This should always be `mapbox` (not your username).
                     username = "mapbox"
                     // Use the secret token you stored in gradle.properties as the password
-                    password = project.properties['MAPBOX_DOWNLOADS_TOKEN'] ?: ""
+                    password = project.properties['ACCESS_TOKEN'] ?: ""
                 }
             }
     }
@@ -32,7 +32,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        def token = System.getenv('SDK_REGISTRY_TOKEN') ?: project.properties['MAPBOX_DOWNLOADS_TOKEN']
+        def token = System.getenv('ACCESS_TOKEN') ?: project.properties['ACCESS_TOKEN']
         if (token == null || token.empty) {
             throw new Exception("SDK Registry token is null. See README.md for more information.")
         }

@@ -38,10 +38,15 @@ dependencies:
   device_info_plus: ^9.0.3
   location: ^5.0.3
   mapbox_gl: ^0.16.0
+  mapbox_search: ^3.2.0
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  mapbox_gl: ^0.16.0
+  location: ^5.0.3
+  device_info_plus: ^9.0.3
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
